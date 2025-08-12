@@ -3,3 +3,27 @@ Example: chmod 755 script.sh (owner: rwx, others: rx)
 
 sudo - Run as admin
 Example: sudo apt update
+
+sudo Explained in Simple Words
+sudo (short for "SuperUser DO") is like getting admin powers for a single command.
+
+What It Does:
+Lets you run commands as the root user (the boss of the system).
+
+Needed for tasks like:
+
+Installing software (sudo apt install)
+
+Editing system files (sudo nano /etc/file)
+
+Changing permissions (sudo chmod)
+
+Example:
+bash
+sudo apt update
+This updates your package list with admin rights.
+
+How to Use It:
+Type sudo before any command needing admin access.
+
+Enter your password (not the root password).
