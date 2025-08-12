@@ -1,0 +1,5 @@
+chmod - Change permissions
+Example: chmod 755 script.sh (owner: rwx, others: rx)
+
+sudo - Run as admin
+Example: sudo apt update
