@@ -1,0 +1,11 @@
+ls - List files
+Example: ls -l (show details)
+
+cd - Change directory
+Example: cd ~/Documents
+
+mkdir - Create folder
+Example: mkdir new_project
+
+rm - Delete files
+Example: rm old_file.txt
