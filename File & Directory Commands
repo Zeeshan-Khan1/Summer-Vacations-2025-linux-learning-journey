@@ -9,3 +9,8 @@ Example: mkdir new_project
 
 rm - Delete files
 Example: rm old_file.txt
+
+What pwd Does:
+Prints the full path of your current directory (folder) in the terminal.
+
+Helps you know where you are in the Linux filesystem.
