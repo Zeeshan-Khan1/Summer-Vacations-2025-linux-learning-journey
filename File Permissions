@@ -1,4 +1,11 @@
 chmod - Change permissions
+1. User Permissions (Owner)
+2. Group Permissions.
+3. Other Permissions.
+-rwxrwxr-x 1 zeeshan-khan zeeshan-khan 420346 Jul  3 15:10 CCp.pdf*
+rwx (Read,Write and Execute).
+
+OR
 Example: chmod 755 script.sh (owner: rwx, others: rx)
 
 sudo - Run as admin
