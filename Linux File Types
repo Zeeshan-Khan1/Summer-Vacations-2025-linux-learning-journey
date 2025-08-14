@@ -1,0 +1,33 @@
+Regular File (-)
+
+Normal files containing text, data, or programs.
+
+Examples: file.txt, script.sh, image.png
+
+Directory (d)
+
+A folder that contains files or other directories.
+
+Example: /home/user/Documents
+
+Symbolic Link (l)
+
+A shortcut or pointer to another file or directory.
+
+Example: shortcut -> /home/user/file.txt
+
+Character Device File (c)
+
+Represents devices that transfer data character by character.
+
+Examples: /dev/tty, /dev/console
+
+Block Device File (b)
+
+Represents devices that transfer data in blocks, like disks.
+
+Examples: /dev/sda, /dev/sdb
+
+Socket (s)
+
+Used for communication between processes.
