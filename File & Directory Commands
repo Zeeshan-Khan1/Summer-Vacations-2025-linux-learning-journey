@@ -13,4 +13,9 @@ Example: rm old_file.txt
 What pwd Does:
 Prints the full path of your current directory (folder) in the terminal.
 
-Helps you know where you are in the Linux filesystem.
+
+- man → Shows help/manual for a command  
+  Example: `man ls`
+
+- q → Quit a manual page or viewer  
+  Example: Press `q` inside `man`
