@@ -12,7 +12,7 @@ sudo - Run as admin
 Example: sudo apt update
 
 sudo Explained in Simple Words
-sudo (short for "SuperUser DO") is like getting admin powers for a single command.
+sudo (short for "SuperUser DO") is like getting admin powers for a single command
 
 What It Does:
 Lets you run commands as the root user (the boss of the system).
