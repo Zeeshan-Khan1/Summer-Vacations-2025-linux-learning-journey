@@ -1,0 +1,19 @@
+- Linux organizes files and folders in a **tree structure** starting from the root `/`.
+- Paths are case-sensitive and separated by `/`.
+- Important commands for navigation:
+  1. pwd` → Shows the current folder path.
+  2. cd [directory]` → Change to a different folder.
+  3. tree -d -L 1 /` → Shows the top-level folders in the root directory.
+
+Some Important Directories:
+- `/root` or `/home/username` → Home directories
+- `/bin`, `/usr/bin` → User programs
+- `/sbin`, `/usr/sbin` → System programs
+- `/etc` → Configuration files
+- `/tmp` → Temporary files
+- `/usr` → Application files
+- `/boot` → Kernel and boot files
+- `/var`, `/srv` → Server data
+- `/proc`, `/sys` → System information
+- `/lib`, `/usr/lib` → Shared libraries
+- `/media`, `/mnt` → Mount points for other drives
