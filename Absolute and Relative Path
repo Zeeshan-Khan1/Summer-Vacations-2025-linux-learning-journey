@@ -1,0 +1,25 @@
+Absolute Path
+
+An absolute path gives the full location of a file or directory starting from the root directory /.
+
+It always starts with /.
+
+Example:
+
+/home/zeeshan/Documents/file.txt
+/etc/nginx/nginx.conf
+
+
+No matter where you are in the system, this path will always point to the same file.
+
+🔹 Relative Path
+
+A relative path describes the location of a file or directory relative to your current working directory (pwd).
+
+It does not start with /.
+
+Example (suppose you are in /home/zeeshan):
+
+Documents/file.txt     → refers to /home/zeeshan/Documents/file.txt
+./file.txt             → current directory’s file
+../Pictures/image.png  → one folder up, then go to Pictures/image.png
