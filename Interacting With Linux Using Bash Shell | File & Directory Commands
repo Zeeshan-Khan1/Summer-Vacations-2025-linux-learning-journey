@@ -19,3 +19,8 @@ Prints the full path of your current directory (folder) in the terminal.
 
 - q → Quit a manual page or viewer  
   Example: Press `q` inside `man`
+
+
+View contents of a file
+
+cat file.txt
