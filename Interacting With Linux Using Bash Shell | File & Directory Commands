@@ -24,3 +24,42 @@ Prints the full path of your current directory (folder) in the terminal.
 View contents of a file
 
 cat file.txt
+
+Create a new file
+
+cat > newfile.txt
+
+
+(Type your text, then press Ctrl + D to save & exit.)
+
+Append text to an existing file
+
+cat >> file.txt
+
+Combine (concatenate) multiple files
+
+cat file1.txt file2.txt > merged.txt
+
+file
+
+Tells the type of a file (text, image, binary, etc).
+
+Example:
+
+file notes.txt
+
+
+Output:
+
+notes.txt: ASCII text
+
+touch
+
+Creates an empty file or updates the timestamp of a file.
+
+Example:
+
+touch hello.txt
+
+
+→ Creates an empty file hello.txt.
