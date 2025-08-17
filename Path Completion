@@ -1,0 +1,12 @@
+In Linux, path completion means you don’t need to type the full folder or file name. You just type the first few letters and press Tab, and the system will complete the rest for you.
+
+Example:
+Instead of typing cd ntp/, you can type cd nt + Tab, and it will auto-complete to cd ntp/.
+
+# Path Completion Example
+cd /etc/      # move to /etc directory
+cd nt<Tab>    # press Tab after typing 'nt'
+
+Output:
+
+cd ntp/
