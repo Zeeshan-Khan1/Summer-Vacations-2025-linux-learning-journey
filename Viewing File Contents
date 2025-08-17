@@ -1,0 +1,38 @@
+17. head / tail
+
+head → Shows the first lines of a file (default = 10 lines).
+
+head file.txt
+head -n 5 file.txt   # show first 5 lines
+
+
+tail → Shows the last lines of a file (default = 10 lines).
+
+tail file.txt
+tail -n 20 file.txt  # show last 20 lines
+
+18. cat / tac
+
+cat (concatenate) → Shows file contents from top to bottom.
+
+cat file.txt
+
+
+tac (reverse cat) → Shows file contents from bottom to top.
+
+tac file.txt
+
+19. less / more
+
+Both let you scroll through a file (page by page).
+
+less → More advanced; you can scroll up & down.
+
+less file.txt
+
+
+(Press q to quit)
+
+more → Only scrolls forward/down.
+
+more file.txt
