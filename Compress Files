@@ -1,0 +1,16 @@
+gzip / gunzip → Compress and decompress files using .gz.
+
+gzip file.txt   # compress
+gunzip file.txt.gz   # decompress
+
+
+bzip2 / bunzip2 → Compress and decompress files using .bz2.
+
+bzip2 file.txt
+bunzip2 file.txt.bz2
+
+
+tar → Packs multiple files/directories into a single archive (optionally compressed).
+
+tar -cvf archive.tar file1 file2   # create tar
+tar -xvf archive.tar               # extract tar
