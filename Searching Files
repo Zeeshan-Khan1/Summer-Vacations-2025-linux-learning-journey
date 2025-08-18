@@ -1,0 +1,15 @@
+find → Searches files and directories in real-time by scanning the file system.
+Example:
+
+find /home -name file.txt
+
+
+→ Looks for file.txt inside /home.
+
+locate → Searches files quickly using a pre-built database (faster than find).
+Example:
+
+locate file.txt
+
+
+→ Instantly shows all paths where file.txt exists.
