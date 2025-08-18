@@ -1,0 +1,33 @@
+🔹 What is Shell History?
+
+In Linux, shell history is a list of all the commands you’ve run in the terminal.
+
+It helps you reuse, edit, or repeat commands without typing them again.
+
+🔹 Useful Commands:
+
+history → Shows previously used commands with numbers.
+
+history
+
+
+Example output:
+
+ 1  ls
+ 2  cd Documents
+ 3  mkdir test
+ 4  history
+
+
+Run a previous command using number:
+
+!3
+
+👉 Runs the 3rd command from history.
+
+Search in history (Ctrl + R):
+Press Ctrl + R → type part of a command → it auto-finds it.
+
+Clear history:
+
+history -c
