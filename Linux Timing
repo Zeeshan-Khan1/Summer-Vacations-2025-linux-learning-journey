@@ -1,0 +1,21 @@
+date → Shows current date & time.
+
+date
+
+
+cal → Displays calendar.
+
+cal
+
+
+time → Measures how long a command takes to run.
+
+time ls
+
+
+sleep → Pauses execution for given seconds.
+
+sleep 5
+
+
+→ Waits for 5 seconds.
