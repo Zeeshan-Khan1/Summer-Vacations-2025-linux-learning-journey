@@ -1,0 +1,54 @@
+🔹 What is grep?
+
+grep = Global Regular Expression Print
+
+It is used to search for text/patterns inside files or output.
+
+Think of it like a find tool for text in Linux.
+
+🔹 Basic Syntax
+grep [pattern] [file]
+
+🔹 Examples
+
+1️⃣ Find a word in a file
+
+grep "hello" myfile.txt
+
+
+👉 Shows all lines from myfile.txt that contain the word hello.
+
+2️⃣ Search ignoring case
+
+grep -i "linux" notes.txt
+
+
+👉 Finds Linux, LINUX, linux (case-insensitive).
+
+3️⃣ Show line numbers with matches
+
+grep -n "error" log.txt
+
+
+👉 Prints matching lines with their line numbers.
+
+4️⃣ Search in multiple files
+
+grep "main" *.c
+
+
+👉 Looks for the word main in all .c files.
+
+5️⃣ Search recursively in folders
+
+grep -r "password" /etc/
+
+
+👉 Finds "password" in all files inside /etc/ and subfolders.
+
+6️⃣ Search using a pipe (filter command output)
+
+ls -l | grep "txt"
+
+
+👉 Shows only files with txt in their name from the ls -l output.
