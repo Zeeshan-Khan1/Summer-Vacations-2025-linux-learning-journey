@@ -1,0 +1,75 @@
+In Linux, a superuser is the administrator (often called root), who has full control of the system.
+
+Superuser can:
+
+Install or remove software
+
+Manage users and permissions
+
+Configure the system
+
+Access any file, even if permissions deny normal users
+
+🔑 Commands:
+
+sudo → Run a command as superuser (temporarily).
+Example:
+
+bash
+Copy
+Edit
+sudo apt update
+sudo apt install nano
+su → Switch to the superuser account.
+
+📦 Software management:
+
+Most Linux distros use package managers to install, update, or remove software.
+
+Debian/Ubuntu: apt or apt-get
+
+Fedora/RHEL/CentOS: dnf or yum
+
+Example (Ubuntu/Debian):
+
+bash
+Copy
+Edit
+sudo apt update      # update package lists
+sudo apt install vim # install vim editor
+sudo apt remove vim  # remove vim
+11. Shell Variables and Aliases
+Shell Variables:
+Variables store data (like numbers, strings, paths) in the shell.
+Example:
+
+bash
+Copy
+Edit
+NAME="Zeeshan"
+echo $NAME
+Output → Zeeshan
+
+Some variables are environment variables, e.g.:
+
+$HOME → your home directory
+
+$PATH → list of directories where commands are searched
+
+Aliases:
+Aliases let you create shortcuts for long commands.
+Example:
+
+bash
+Copy
+Edit
+alias ll='ls -la'
+Now typing ll will run ls -la.
+
+To remove an alias:
+
+bash
+Copy
+Edit
+unalias ll
+👉 Aliases save time, variables help store and reuse values
