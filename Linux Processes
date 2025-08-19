@@ -1,0 +1,20 @@
+
+A process is a running program in Linux.
+
+Each process has a unique PID (Process ID).
+
+Processes can run in the foreground (active) or background (silent).
+
+Daemon → Special background service (e.g., sshd, cron).
+
+👉 Commands
+
+ps → Show processes.
+
+top → Show active processes in real time.
+
+kill PID → Terminate a process.
+
+jobs → List background jobs.
+
+fg %1 → Bring a background job to the foreground.
