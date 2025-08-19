@@ -1,0 +1,14 @@
+
+Linux manages memory using RAM + Swap.
+
+RAM → Fast physical memory.
+
+Swap → Disk space used when RAM is full (slower).
+
+👉 Commands
+
+free -h → Show memory usage.
+
+top or htop → Monitor processes and memory.
+
+vmstat → Show virtual memory statistics.
