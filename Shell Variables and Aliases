@@ -1,0 +1,35 @@
+
+Shell Variables:
+Variables store data (like numbers, strings, paths) in the shell.
+Example:
+
+bash
+Copy
+Edit
+NAME="Zeeshan"
+echo $NAME
+Output → Zeeshan
+
+Some variables are environment variables, e.g.:
+
+$HOME → your home directory
+
+$PATH → list of directories where commands are searched
+
+Aliases:
+Aliases let you create shortcuts for long commands.
+Example:
+
+bash
+Copy
+Edit
+alias ll='ls -la'
+Now typing ll will run ls -la.
+
+To remove an alias:
+
+bash
+Copy
+Edit
+unalias ll
+👉 Aliases save time, variables help store and reuse values
