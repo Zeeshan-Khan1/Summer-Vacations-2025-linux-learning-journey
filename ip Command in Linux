@@ -1,0 +1,62 @@
+The ip command is used to show, configure, and manage networking (IP addresses, routes, interfaces, etc.).
+
+✅ Common ip Command Examples:
+
+Check IP address of your system
+
+ip addr show
+
+
+or short form:
+
+ip a
+
+
+👉 Shows all network interfaces and their IP addresses.
+
+Show only IPv4 addresses
+
+ip -4 addr
+
+
+Show only IPv6 addresses
+
+ip -6 addr
+
+
+Check only one interface (example: eth0)
+
+ip addr show dev eth0
+
+
+Show routing table (how packets are sent/received)
+
+ip route show
+
+
+👉 Similar to route -n.
+
+Assign a new IP address to an interface
+
+sudo ip addr add 192.168.1.100/24 dev eth0
+
+
+Remove an IP address from interface
+
+sudo ip addr del 192.168.1.100/24 dev eth0
+
+
+Bring a network interface up/down
+
+sudo ip link set eth0 up
+sudo ip link set eth0 down
+
+📝 In Short:
+
+ip addr → show IP addresses
+
+ip route → show routing table
+
+ip link → show/manage interfaces
+
+ip addr add/del → assign/remove IPs
