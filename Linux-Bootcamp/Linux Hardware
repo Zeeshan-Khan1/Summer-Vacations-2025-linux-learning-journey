@@ -9,4 +9,4 @@ lsblk: Lists all block devices (disks, partitions) - essential for disk manageme
 
 df -h: Shows disk space usage on mounted filesystems. The -h makes it "human-readable" (MB, GB).
 
-free -h: Shows available memory (RAM) and swap space.
+free -h: Shows available memory (RAM) and swap space
