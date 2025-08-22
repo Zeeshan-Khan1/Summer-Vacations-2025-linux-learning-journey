@@ -7,3 +7,5 @@ Database Configuration – Supply the created database credentials
 GPG Key Setup – Generate or import a key pair
 
 Recommended: generate RSA key without passphrase for consistency
+
+After this process, your admin account will be set, and you'll be directed to the login page.
