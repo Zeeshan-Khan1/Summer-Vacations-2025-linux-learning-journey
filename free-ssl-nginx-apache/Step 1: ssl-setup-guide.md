@@ -15,7 +15,7 @@ This guide explains how to set up a **free SSL certificate** for your website us
 ## ⚡ Step 1: Install Certbot
 
 ### Ubuntu/Debian
-```bash
+````bash
 sudo apt update
 sudo apt install certbot python3-certbot-nginx -y   # for Nginx
 sudo apt install certbot python3-certbot-apache -y  # for Apache
